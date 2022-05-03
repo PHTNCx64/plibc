@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\stdio.h" />
+    <ClInclude Include="include\string.h" />
+    <ClInclude Include="include\ctype.h" />
+    <ClInclude Include="include\base.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ctype">
+      <UniqueIdentifier>{06f41626-5830-430b-b28a-9568e614449b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdio">
+      <UniqueIdentifier>{ab1a7282-8b17-4a53-8c67-c09275b6c482}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\string\_memchr.c" />
+    <ClCompile Include="src\string\_memcmp.c" />
+    <ClCompile Include="src\string\_memcpy.c" />
+    <ClCompile Include="src\string\_memcpy16.c" />
+    <ClCompile Include="src\string\_memmove.c" />
+    <ClCompile Include="src\string\_memrchr.c" />
+    <ClCompile Include="src\string\_memset.c" />
+    <ClCompile Include="src\string\_strcasecmp.c" />
+    <ClCompile Include="src\string\_strcat.c" />
+    <ClCompile Include="src\string\_strchr.c" />
+    <ClCompile Include="src\string\_strcmp.c" />
+    <ClCompile Include="src\string\_strcoll.c" />
+    <ClCompile Include="src\string\_strcpy.c" />
+    <ClCompile Include="src\string\_strcspn.c" />
+    <ClCompile Include="src\string\_strdup.c" />
+    <ClCompile Include="src\string\_strerror.c" />
+    <ClCompile Include="src\string\_strlen.c" />
+    <ClCompile Include="src\string\_strncasecmp.c" />
+    <ClCompile Include="src\string\_strncat.c" />
+    <ClCompile Include="src\string\_strncmp.c" />
+    <ClCompile Include="src\string\_strncpy.c" />
+    <ClCompile Include="src\string\_strpbrk.c" />
+    <ClCompile Include="src\string\_strrchr.c" />
+    <ClCompile Include="src\string\_strspn.c" />
+    <ClCompile Include="src\string\_strstr.c" />
+    <ClCompile Include="src\string\_strtok.c" />
+    <ClCompile Include="src\string\_strtok_r.c" />
+    <ClCompile Include="src\stdio\_fopen.c">
+      <Filter>stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdio\_gets.c">
+      <Filter>stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdio\_puts.c">
+      <Filter>stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ctype\_isupper.c">
+      <Filter>ctype</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ctype\_tolower.c">
+      <Filter>ctype</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
