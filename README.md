@@ -1,4 +1,4 @@
-# PLibC
+# PLibC - PHTNC's libC
 
 This is a custom C Standard library that targets the PS3. I've made this project to get a better understanding on how the C standard library functions work, improve my coding skills in C and out of boredom.
 
