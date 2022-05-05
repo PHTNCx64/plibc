@@ -19,6 +19,7 @@
 	// Yes I know FILE is a structure, but I'm using this as a stub rn. The syscalls return CellFsErrno,
 	// it's a signed integer.
 	typedef signed int _FILE;
+	
 
 #endif // __PS3__
 

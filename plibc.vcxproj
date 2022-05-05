@@ -61,10 +61,27 @@
   <ItemGroup>
     <ClInclude Include="include\base.h" />
     <ClInclude Include="include\ctype.h" />
+    <ClInclude Include="include\malloc.h" />
     <ClInclude Include="include\stdio.h" />
     <ClInclude Include="include\string.h" />
+    <ClInclude Include="include\time.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\ctype\_isalnum.c" />
+    <ClCompile Include="src\ctype\_isalpha.c" />
+    <ClCompile Include="src\ctype\_isblank.c" />
+    <ClCompile Include="src\ctype\_iscntrl.c" />
+    <ClCompile Include="src\ctype\_isdigit.c" />
+    <ClCompile Include="src\ctype\_isgraph.c" />
+    <ClCompile Include="src\ctype\_islower.c" />
+    <ClCompile Include="src\ctype\_isprint.c" />
+    <ClCompile Include="src\ctype\_ispunct.c" />
+    <ClCompile Include="src\ctype\_isspace.c" />
+    <ClCompile Include="src\ctype\_isxdigit.c" />
+    <ClCompile Include="src\malloc\_malloc.c" />
+    <ClCompile Include="src\stdio\_fclose.c" />
+    <ClCompile Include="src\stdio\_fseek.c" />
+    <ClCompile Include="src\stdio\_rename.c" />
     <ClCompile Include="src\string\_memchr.c" />
     <ClCompile Include="src\string\_memcmp.c" />
     <ClCompile Include="src\string\_memcpy.c" />
@@ -97,6 +114,7 @@
     <ClCompile Include="src\ctype\_isupper.c" />
     <ClCompile Include="src\stdio\_puts.c" />
     <ClCompile Include="src\ctype\_tolower.c" />
+    <ClCompile Include="src\time\_clock.c" />
   </ItemGroup>
   <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
